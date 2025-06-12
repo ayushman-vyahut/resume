@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(yellow, red );
+}
+
+.container {
+  display: flex;
+  max-width: 960px;
+  background: rgb(253, 242, 236);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.container h2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container h3{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: underline;
+}
+.sidebar {
+  background: #1c2b49;
+  color: white;
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+}
+
+.profile-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.sidebar h2 {
+  margin: 10px 0 5px;
+}
+
+.title {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #c4c4c4;
+}
+
+.contact {
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+  text-align: left;
+}
+
+.contact li {
+  margin: 10px 0;
+}
+
+.contact i {
+  margin-right: 10px;
+}
+
+.skills p {
+  margin: 10px 0 4px;
+  font-size: 14px;
+}
+
+
+.language {
+  margin-top: 30px;
+}
+
+.language p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.social-icons {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.social-icons a {
+  color: rgb(247, 246, 246); /* or any color you prefer */
+  margin: 0 8px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.social-icons a i{
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.content {
+  padding: 30px;
+  flex: 1;
+  color: #333;
+}
+
+.content section {
+  margin-bottom: 30px;
+  background-color: aliceblue;
+}
+
+.content h2 {
+  color: #1c2b49;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.content h3 {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
+.content p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+
+    .bio {
+      font-style: italic;
+      font-size: 14px;
+      line-height: 1.6;
+      padding: 0 10px;
+    }
+
+    
